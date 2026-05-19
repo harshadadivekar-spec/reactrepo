@@ -2,6 +2,7 @@ pipeline {
     agent any
     tools {
         nodejs "NodeJs"
+        //jdk "JDK_HOME"
     }
     stages {
         stage("Checkout") {
