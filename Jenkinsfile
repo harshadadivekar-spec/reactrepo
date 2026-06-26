@@ -29,8 +29,8 @@ pipeline {
         }
         stage("Deployment") {
             steps {
-                bat "del /q /s C:\\inetpub\\wwwroot\\reactapp\\*"
-                bat "xcopy /E /I /Y build\\* C:\\inetpub\\wwwroot\\reactapp\\"
+                bat "del /q /s C:\\inetpub\\wwwroot\\First React Project\\*"
+                bat "xcopy /E /I /Y build\\* C:\\inetpub\\wwwroot\\First React Project\\"
             }
 
         }
